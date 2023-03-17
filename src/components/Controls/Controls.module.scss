@@ -1,0 +1,34 @@
+@import '../../styles/mixins';
+
+.controlsContainer {
+  display: flex;
+  flex-direction: column;
+  @include sm {
+		flex-basis: 50%;
+  }
+}
+
+.title {
+  padding: 0 0 1.5rem;
+}
+
+.holder {
+  position: relative;
+}
+
+.value {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.selectContainer {
+  padding-bottom: 2rem;
+}
+
+.genderContainer {
+  padding-bottom: 2rem;
+  label {
+    padding: 0 0.5rem;
+  }
+}

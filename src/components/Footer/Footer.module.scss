@@ -1,0 +1,17 @@
+.footer {
+  flex: 0 0 auto;
+  border-top: 1px solid var(--border-color);
+  padding: 1.5rem 0;
+  a {
+    &:hover {
+      text-decoration: underline;
+      text-underline-position: under;
+    }
+  }
+}
+
+.holder {
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}

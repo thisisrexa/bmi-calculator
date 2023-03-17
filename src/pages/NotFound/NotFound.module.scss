@@ -1,0 +1,9 @@
+@import '../../styles/mixins';
+
+.notFoundImage {
+  width: 100%;
+  @include lg {
+    width: 66.666666%;
+    margin: 0 auto;
+  }
+}

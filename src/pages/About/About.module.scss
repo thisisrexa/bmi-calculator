@@ -1,0 +1,40 @@
+@import '../../styles/mixins';
+
+.imageBox {
+  direction: ltr;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @include xs {
+    flex-direction: row;
+    justify-content: start;
+  }
+  img {
+    padding: 0.5rem;
+  }
+}
+
+.dark {
+  img {
+    filter: invert(1);
+  }
+}
+
+table,
+th,
+td {
+  border: 1px solid var(--border-color);
+  border-collapse: collapse;
+  padding: 0.5rem;
+  min-width: 33.333333333%;
+  text-align: center;
+}
+
+thead {
+  background-color: var(--table-thead-color);
+}
+
+tbody tr:nth-child(even) {
+  background-color: var(--table-tbody-color);
+}

@@ -1,0 +1,37 @@
+@import "variables";
+
+@mixin xs {
+  @media only screen and (min-width: #{$xs-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media only screen and (min-width: #{$sm-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media only screen and (min-width: #{$md-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media only screen and (min-width: #{$lg-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media only screen and (min-width: #{$xl-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin twoXl {
+  @media only screen and (min-width: #{$twoXl-breakpoint}) {
+    @content;
+  }
+}

@@ -1,0 +1,104 @@
+@import '../../styles/mixins';
+
+.header {
+  flex: 0 0 auto;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border-color);
+  > ul {
+    display: none;
+    margin: 0;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    li {
+      list-style: none;
+      padding: 0.25rem 0;
+    }
+  }
+}
+
+.holder {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  @include sm {
+  flex-direction: row;
+  }
+}
+
+.logoContainer {
+  display: none;
+  align-items: center;
+  column-gap: 0.5rem;
+  color: var(--fg-color);
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  @include sm {
+    display: flex;
+  }
+}
+
+.title {
+  font-weight: 700;
+  display: none;
+  @include sm {
+    display: block;
+  }
+}
+
+.menuContainer {
+  display: none;
+  column-gap: 1rem;
+  padding: 0;
+  li {
+    list-style-type: none;
+  }
+  @include sm {
+    display: flex;
+  }
+}
+
+.menuLink {
+  color: var(--fg-color);
+  font-weight: 500;
+  &:hover {
+    opacity: 0.8;
+  }
+  &:hover &::after {
+    content: 'a';
+  }
+}
+
+.mobileMenuContainer {
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--fg-color);
+  }
+  @include sm {
+    display: none;
+  }
+}
+
+.actionsContainer {
+  display: flex;
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--fg-color);
+    &:hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  }
+  @include sm {
+    display: flex;
+  }
+}

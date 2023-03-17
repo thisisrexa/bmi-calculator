@@ -1,0 +1,42 @@
+:root {
+  --bg-color: #fff;
+  --fg-color: #18181b;
+  --primary-color: ;
+  --secondary-color: ;
+  --text-color: #151515;
+  --calc-box-color: #f5f5f5;
+  --blue-color: #2563eb;
+  --green-color: #16a34a;
+  --yellow-color: #ca8a04;
+  --orange-color: #ea580c;
+  --red-color: #dc2626;
+  --fuchsia-color: #c026d3;
+  --violet-color: #7c3aed;
+  --light-blue-color: #dbeafe;
+  --light-green-color: #d1fae5;
+  --light-yellow-color: #fef9c3;
+  --light-orange-color: #ffedd5;
+  --light-red-color: #fee2e2;
+  --light-fuchsia-color: #fdf4ff;
+  --light-violet-color: #f5f3ff;
+  --border-color: rgba(0, 0, 0, 0.1);
+  --link-color: #2563eb;
+  --table-thead-color: #e5e5e5;
+  --table-tbody-color: #f7f7f7;
+}
+
+.dark:root {
+  --bg-color: #2b2d42;
+  --fg-color: #e7e7e7;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --link-color: #6194ff;
+  --table-thead-color: #27283B;
+  --table-tbody-color: #2A2B40;
+}
+
+$xs-breakpoint: 420px;
+$sm-breakpoint: 640px;
+$md-breakpoint: 768px;
+$lg-breakpoint: 1024px;
+$xl-breakpoint: 1280px;
+$twoXl-breakpoint: 1536px;
