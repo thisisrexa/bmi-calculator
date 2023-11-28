@@ -4,7 +4,7 @@ An app to calculate the BMI of a person.
 
 Created with [ViteJS](https://github.com/vitejs/vite).
 
-## Install 
+## Instalation 
 `npm install`
 
 or 
@@ -19,5 +19,6 @@ or
 `yarn dev`
 
 ## TODO
-- [ ] Improve performance
-- [ ] Fix the ridiculous dark mode
+- [x] ~~Dark Mode~~
+- [ ] Improve Performance
+- [ ] Fix wrong status color
