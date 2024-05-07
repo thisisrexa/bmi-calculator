@@ -1,24 +1,20 @@
-## A Simple BMI Caclulator 
+## Introduction
 
-An app to calculate the BMI of a person. 
+[What's Body Mass Index?](https://bmi-calculator-preview.vercel.app/about) 
 
-Created with [ViteJS](https://github.com/vitejs/vite).
-
-## Instalation 
-`npm install`
-
-or 
-
-`yarn install` or `yarn`
-
-## Usage
-`npm run dev`
-
-or
-
-`yarn dev`
+## Setup
+```
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
 ## TODO
 - [x] ~~Dark Mode~~
 - [ ] Improve Performance
 - [ ] Fix wrong status color
+- [ ] Add ID's for About page titles
